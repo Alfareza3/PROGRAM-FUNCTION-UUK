@@ -1,32 +1,37 @@
 ````md
 # 📏 Program Rata-Rata Panjang Kucing
 
-Program ini dibuat untuk menghitung **rata-rata panjang badan kucing** berdasarkan input dari pengguna. Dibuat menggunakan bahasa pemrograman C++ saat pembelajaran dasar di kelas 10 SMK.
+![Made with C++](https://img.shields.io/badge/Made%20with-C%2B%2B-blue)
+![Project Status](https://img.shields.io/badge/status-complete-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-lightgrey)
+
+Program ini dibuat untuk menghitung **rata-rata panjang badan kucing** berdasarkan input dari pengguna. Dibuat menggunakan bahasa pemrograman **C++** sebagai tugas latihan saat kelas 10 SMK jurusan RPL.
 
 ---
 
 ## 🧾 Deskripsi
 
-Pengguna diminta untuk memasukkan jumlah kucing, lalu memasukkan panjang badan masing-masing kucing. Program akan menghitung dan menampilkan:
+Program ini menerima input berupa jumlah kucing, kemudian panjang masing-masing kucing. Setelah semua data dimasukkan, program akan:
 
-- Panjang badan setiap kucing
-- Rata-rata panjang badan semua kucing
+- Menampilkan panjang setiap kucing
+- Menghitung dan menampilkan **rata-rata panjang** dari seluruh kucing
 
 ---
 
 ## 💻 Cara Menjalankan Program
 
-1. **Kompilasi** file program:
+### 1. Kompilasi
+Gunakan compiler C++ seperti `g++`:
 
-   ```bash
-   g++ main.cpp -o kucing
+```bash
+g++ main.cpp -o kucing
 ````
 
-2. **Jalankan** program:
+### 2. Jalankan Program
 
-   ```bash
-   ./kucing
-   ```
+```bash
+./kucing
+```
 
 ---
 
@@ -50,21 +55,54 @@ Rata-rata panjang badan kucing: 53
 
 ## ⚙️ Spesifikasi
 
-* Bahasa: C++
-* Maksimum data: 100 kucing
-* Input panjang badan: bilangan bulat
+| Fitur                | Detail                      |
+| -------------------- | --------------------------- |
+| Bahasa Pemrograman   | C++                         |
+| Maksimal Data Kucing | 100                         |
+| Input Panjang        | Bilangan bulat (`int`)      |
+| Output               | Teks + Rata-rata (`double`) |
 
 ---
 
 ## 📂 Struktur File
 
-* `main.cpp` — Source code utama program
+```
+📁 Program-Kucing
+├── main.cpp       # Source code utama
+└── README.md      # Dokumentasi proyek
+```
 
 ---
 
 ## 👨‍🎓 Pembuat
 
-Dimas Fahri Alfareza
-Dibuat sebagai tugas latihan dasar pemrograman C++ saat kelas 10 SMK
+**Dimas Fahri Alfareza**
+Pelajar SMK jurusan Rekayasa Perangkat Lunak
+📅 Proyek dibuat saat kelas 10 (pemula C++)
+
+---
+
+## 📜 Lisensi
+
+Proyek ini menggunakan lisensi **MIT** — silakan gunakan, ubah, dan distribusikan dengan bebas.
+Lihat file `LICENSE` untuk informasi lebih lanjut.
+
+---
+
+## 🌟 Catatan Tambahan
+
+✅ Cocok sebagai referensi latihan dasar untuk belajar:
+
+* Array
+* Loop `for`
+* Input/output
+* Tipe data campuran `int` dan `double`
+
+---
+
+## 🔗 Referensi
+
+* [Tutorial C++ Dasar](https://www.learncpp.com/)
+* [Compiler Online](https://www.onlinegdb.com/online_c++_compiler)
 
 ---
