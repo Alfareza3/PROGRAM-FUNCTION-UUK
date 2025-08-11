@@ -1,37 +1,41 @@
-````md
 # 📏 Program Rata-Rata Panjang Kucing
 
-![Made with C++](https://img.shields.io/badge/Made%20with-C%2B%2B-blue)
-![Project Status](https://img.shields.io/badge/status-complete-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
-
-Program ini dibuat untuk menghitung **rata-rata panjang badan kucing** berdasarkan input dari pengguna. Dibuat menggunakan bahasa pemrograman **C++** sebagai tugas latihan saat kelas 10 SMK jurusan RPL.
+Program sederhana untuk menghitung **rata-rata panjang badan kucing** berdasarkan input dari pengguna.
+Dibuat menggunakan bahasa pemrograman **C++** sebagai latihan saat kelas 10 SMK jurusan RPL.
 
 ---
 
-## 🧾 Deskripsi
+## ✨ Fitur Utama
 
-Program ini menerima input berupa jumlah kucing, kemudian panjang masing-masing kucing. Setelah semua data dimasukkan, program akan:
-
-- Menampilkan panjang setiap kucing
-- Menghitung dan menampilkan **rata-rata panjang** dari seluruh kucing
+* 📥 Input jumlah kucing dan panjang masing-masing
+* 📋 Menampilkan panjang setiap kucing
+* 🧮 Menghitung dan menampilkan rata-rata panjang
+* 🔢 Mendukung hingga 100 data kucing
 
 ---
 
-## 💻 Cara Menjalankan Program
+## 🛠️ Teknologi yang Digunakan
 
-### 1. Kompilasi
-Gunakan compiler C++ seperti `g++`:
+* C++
+* Input/Output standar (`cin` / `cout`)
+* Array & loop `for`
+* Tipe data campuran (`int`, `double`)
 
-```bash
-g++ main.cpp -o kucing
-````
+---
 
-### 2. Jalankan Program
+## 🚀 Cara Menjalankan Program
 
-```bash
-./kucing
-```
+1. Pastikan sudah menginstal compiler C++ seperti **g++**
+2. Kompilasi program:
+
+   ```bash
+   g++ main.cpp -o kucing
+   ```
+3. Jalankan program:
+
+   ```bash
+   ./kucing
+   ```
 
 ---
 
@@ -53,18 +57,7 @@ Rata-rata panjang badan kucing: 53
 
 ---
 
-## ⚙️ Spesifikasi
-
-| Fitur                | Detail                      |
-| -------------------- | --------------------------- |
-| Bahasa Pemrograman   | C++                         |
-| Maksimal Data Kucing | 100                         |
-| Input Panjang        | Bilangan bulat (`int`)      |
-| Output               | Teks + Rata-rata (`double`) |
-
----
-
-## 📂 Struktur File
+## 📂 Struktur Proyek
 
 ```
 📁 Program-Kucing
@@ -74,35 +67,14 @@ Rata-rata panjang badan kucing: 53
 
 ---
 
-## 👨‍🎓 Pembuat
+## 🧑‍💻 Developer
 
 **Dimas Fahri Alfareza**
-Pelajar SMK jurusan Rekayasa Perangkat Lunak
-📅 Proyek dibuat saat kelas 10 (pemula C++)
+SMK TI Airlangga Samarinda
+Proyek latihan C++ – Kelas 10 RPL
 
 ---
 
-## 📜 Lisensi
+## 📄 Lisensi
 
-Proyek ini menggunakan lisensi **MIT** — silakan gunakan, ubah, dan distribusikan dengan bebas.
-Lihat file `LICENSE` untuk informasi lebih lanjut.
-
----
-
-## 🌟 Catatan Tambahan
-
-✅ Cocok sebagai referensi latihan dasar untuk belajar:
-
-* Array
-* Loop `for`
-* Input/output
-* Tipe data campuran `int` dan `double`
-
----
-
-## 🔗 Referensi
-
-* [Tutorial C++ Dasar](https://www.learncpp.com/)
-* [Compiler Online](https://www.onlinegdb.com/online_c++_compiler)
-
----
+Proyek ini menggunakan lisensi **MIT** — silakan gunakan, ubah, dan distribusikan secara bebas untuk keperluan non-komersial.
